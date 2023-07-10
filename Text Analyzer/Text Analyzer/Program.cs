@@ -198,21 +198,31 @@ namespace Text_Analyzer
 
         static void SentenceMaker(string[] words)
         {
-            Console.WriteLine("Enter the number of sentences:");
+            Console.WriteLine("Enter the number of sentences:");   
             int n = int.Parse(Console.ReadLine());
             int len = words.Length;
             Console.WriteLine("Generated Sentences: ");
             Random random = new Random(); //creating new instance from a built-in class Random to generate random integers
-            for(int i=1; i<=n; i++) //iteration for each sentence upto n sentences 
+            if (n > 0)
             {
-                Console.Write(i+": ");
-                for(int j=1; j<=5; j++) //iteraion for each word in the sentence upto 5 words
+                for (int i = 1; i <= n; i++) //iteration for each sentence upto n sentences 
                 {
-                    //random.Next[int] generate a random number upto the number of words in wordsArray
-                    Console.Write(words[random.Next(len-1)] + " "); 
+                    Console.Write(i + ": ");
+                    for (int j = 1; j <= 5; j++) //iteraion for each word in the sentence upto 5 words
+                    {
+                        //random.Next[int] generate a random number upto the number of words in wordsArray
+                        Console.Write(words[random.Next(len - 1)] + " ");
+                    }
+                    Console.WriteLine();
                 }
-                Console.WriteLine();
             }
+            else
+            {
+                Console.WriteLine("Invalid Number!");
+                Console.WriteLine();
+                SentenceMaker(words);
+            }
+            
             Console.WriteLine();
         }
 
@@ -267,7 +277,7 @@ namespace Text_Analyzer
             int count = 0; //intializing count to calculate number of times the given word occur in a sentence.
             for(int i =0;  i < words.Length ; i++) //iteration to check if the given word present in words array
             {
-                if(word == words[i])
+                if(word.ToLower().Trim() == words[i].ToLower().Trim())
                 {
                     count++; //increment in count if given word matches with any word in words array
                 }
