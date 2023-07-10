@@ -6,3 +6,11 @@ C:\Users\User\Desktop\CureMD\Text Analyzer\Text Analyzer\obj\Debug\Text Analyzer
 C:\Users\User\Desktop\CureMD\Text Analyzer\Text Analyzer\obj\Debug\Text Analyzer.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\CureMD\Text Analyzer\Text Analyzer\obj\Debug\Text Analyzer.exe
 C:\Users\User\Desktop\CureMD\Text Analyzer\Text Analyzer\obj\Debug\Text Analyzer.pdb
+C:\Users\User\Desktop\CureMD\CureMD-Project-1\Text Analyzer\Text Analyzer\bin\Debug\Text Analyzer.exe.config
+C:\Users\User\Desktop\CureMD\CureMD-Project-1\Text Analyzer\Text Analyzer\bin\Debug\Text Analyzer.exe
+C:\Users\User\Desktop\CureMD\CureMD-Project-1\Text Analyzer\Text Analyzer\bin\Debug\Text Analyzer.pdb
+C:\Users\User\Desktop\CureMD\CureMD-Project-1\Text Analyzer\Text Analyzer\obj\Debug\Text Analyzer.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\CureMD\CureMD-Project-1\Text Analyzer\Text Analyzer\obj\Debug\Text Analyzer.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\CureMD\CureMD-Project-1\Text Analyzer\Text Analyzer\obj\Debug\Text Analyzer.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CureMD\CureMD-Project-1\Text Analyzer\Text Analyzer\obj\Debug\Text Analyzer.exe
+C:\Users\User\Desktop\CureMD\CureMD-Project-1\Text Analyzer\Text Analyzer\obj\Debug\Text Analyzer.pdb

@@ -32,6 +32,10 @@ namespace Text_Analyzer
                 else
                 {
                     string[] words = WordArray(sentence, count); //Generate an array of words from the given sentence
+                    foreach (string word in words)
+                    {
+                        Console.WriteLine($"{word}");
+                    }
                     ConsoleKeyInfo keyInfo; //storing key info with keyInfo variable in ConsoleKeyInfo
                     Console.WriteLine("Press Spacebar to count words frequency");
                     keyInfo = Console.ReadKey(); //store pressed key in keyInfo
@@ -153,7 +157,7 @@ namespace Text_Analyzer
                 //e.g., 'hello world' hello starts with 'h' and ends with the space just before 'w' 
                 else if (!Char.IsLetter(sentence[i]) && Char.IsLetter(sentence[i + 1])) 
                 {
-                    if (count != 1) //check if the sentence have more than one word
+                    if (count != 1 && !String.IsNullOrEmpty(word)) //check if the sentence have more than one word
                     {
                         words[wordIndex] = word; //Place the word at the wordIndex of the words array
                         wordIndex++; //incrementing wordIndex for the next word
